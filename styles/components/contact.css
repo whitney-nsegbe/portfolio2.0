@@ -1,0 +1,16 @@
+.contact {
+    text-align: center;
+    padding: var(--spacing-xl) 0;
+}
+
+.contact h2 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: var(--spacing-sm);
+}
+
+.contact p {
+    max-width: 600px;
+    margin: 0 auto var(--spacing-md);
+    font-size: 1.125rem;
+    line-height: 1.8;
+}

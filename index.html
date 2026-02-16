@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
+  <link rel="manifest" href="public/site.webmanifest">
+
+  <meta name="description"
+    content="Whitney Nsegbe — Software engineering student & frontend developer building original web experiences.">
+  <meta name="keywords"
+    content="Whitney, Whitney Nsegbe, software engineering, websites by whitney, whitney websites, frontend developer, portfolio whitney, web developer whitney, web applications" />
+  <meta name="author" content="Whitney Nsegbe" />
+
+  <meta property="og:title" content="Whitney Nsegbe | Software Engineering Student & Frontend Developer" />
+  <meta property="og:description"
+    content="Explore the portfolio of Whitney Nsegbe, showcasing original websites and web apps made with passion and skill." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://websitesbywhitney.com/" />
+  <meta property="og:image" content="https://websitesbywhitney.com/public/headshot.jpg" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Whitney Nsegbe | Software Engineering Student & Frontend Developer" />
+  <meta name="twitter:description"
+    content="Explore the portfolio of Whitney Nsegbe, showcasing original websites and web apps made with passion and skill." />
+  <meta name="twitter:image" content="https://websitesbywhitney.com/public/headshot.jpg" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Whitney Nsegbe",
+    "url": "https://websitesbywhitney.com/", 
+    "image": "https://websitesbywhitney.com/public/headshot.jpg",
+    "sameAs": [
+      "https://www.linkedin.com/in/whitney-nsegbe",
+      "https://github.com/newly-web",
+      "mailto:whitneynsegbe@gmail.com"
+    ],
+    "jobTitle": "Software Engineering Student & Frontend Developer",
+    "description": "Portfolio website of Whitney Nsegbe, showcasing original websites and web applications."
+  }
+  </script>
+
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=cabinet-grotesk@400,500,600&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Files -->
+  <link rel="stylesheet" href="/styles/modern-normalize.css">
+  <link rel="stylesheet" href="/styles/style.css">
+  <link rel="stylesheet" href="/styles/utils.css">
+  <link rel="stylesheet" href="/styles/components/header.css">
+  <link rel="stylesheet" href="/styles/components/mobilenavbar.css">
+  <link rel="stylesheet" href="/styles/components/about.css">
+  <link rel="stylesheet" href="/styles/components/featured.css">
+  <link rel="stylesheet" href="/styles/components/work.css">
+  <link rel="stylesheet" href="/styles/components/contact.css">
+  <link rel="stylesheet" href="/styles/components/footer.css">
+
+  <title>WHITNEY NSEGBE</title>
+</head>
+
+<body>
+  <header class="header container">
+    <nav>
+      <ul class="header__menu">
+        <li><a href="#projects">My Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li class="header__dot"></li>
+        <a class="header__resume btn"
+          href="https://docs.google.com/document/d/1oSBFghNv_Y4pI71s4k_mjhZjMnpCxIDLt0oQWJIXQ3k/export?format=pdf">Resume</a>
+      </ul>
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+
+  <!-- mobile nav -->
+  <div class="mobile__nav">
+    <nav>
+      <ul class="mobile__nav__menu">
+        <li><a href="#projects" class="mobile__nav__link">My Work</a></li>
+        <li><a href="#contact" class="mobile__nav__link">Contact Me</a></li>
+        <li class="mobile__nav__line"></li>
+        <li class="mobile__nav__button"><a class="btn"
+            href="https://docs.google.com/document/d/1oSBFghNv_Y4pI71s4k_mjhZjMnpCxIDLt0oQWJIXQ3k/export?format=pdf">Resume</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero container">
+      <img class="hero__img" src="public/headshot.jpg" alt="Whitney Nsegbe headshot" />
+      <p class="hero__subtitle">Hello, I'm</p>
+      <h1 class="hero__title">Whitney Nsegbe</h1>
+      <p class="hero__description">
+        A <span>software engineering</span> student and <span>&lt;Frontend Developer/&gt;</span> focused on creating
+        original websites and web applications that stand out and make an impact.
+      </p>
+
+      <div class="hero__socials">
+        <a href="https://www.linkedin.com/in/whitney-nsegbe" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/newly-web" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="mailto:whitneynsegbe@gmail.com" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <a href="#contact" class="btn hero__button">Let's talk!</a>
+    </section>
+
+    <!-- Featured Project -->
+    <section class="featured container section">
+      <p class="featured__subtitle">Featured Project</p>
+      <div class="featured__header">
+        <h2 class="featured__title">uFindIt</h2>
+        <a href="https://ufindit.onrender.com" target="_blank" class="featured__link" aria-label="View UFindIt project">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+          </svg>
+        </a>
+      </div>
+
+      <p class="featured__description">
+        My friends and I built uFindIt after noticing how often students lose things in classrooms or study spaces but never think
+        to check the official lost & found. Most items aren’t really stolen, sometimes they’re just in the wrong place.
+        <br>
+        <br>
+        The platform lets students post items they lost or found and reconnect directly in a structured way (instead of posting on
+        reddit). It supports real users, guest browsing, verification emails, and claim validation to keep interactions
+        safe.
+        <br>
+        <br>
+        I worked primarily on the backend logic and authentication flows, helping design how users, guests, and item claims are
+        handled in a live environment. We also reached out to university staff to make sure the platform complements official
+        services rather than replacing them.
+        
+      </p>
+
+      <!-- Video placeholder -->
+      <div class="featured__video">
+        <video controls style="width: 100%; height: 100%; object-fit: cover;">
+          <source src="your-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="featured__details">
+        <div>
+          <h3>Tech Stack</h3>
+          <ul class="techstack__list">
+            <li>HTML</li>
+            <li>Flask/Python</li>
+            <li>Supabase</li>
+            <li>Jinja</li>
+            <li>Bootstrap CSS</li>
+            <li>PostgreSQL</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Project Type</h3>
+          <p>Full-stack Web Application</p>
+        </div>
+        <div>
+          <h3>Timeline</h3>
+          <p>Jan 2025 - March 2026</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="work container section" id="projects">
+      <h2 class="work__title">My Work</h2>
+      <p class="work__description">
+        I'm a software engineering student, that means I <em>sometimes</em> code on my free time. Whether it's designing engaging
+        websites, developing full-stack applications, or collaborating on group projects, I enjoy creating tools that
+        make a real impact. Here are some of my favs.
+      </p>
+
+      <div class="projects__grid">
+        <!-- Project 1: BlackSpoken -->
+        <article class="project__card">
+          <div class="project__image">
+            <img src="public/websitesbywhitney.pythonanywhere.com_.png" alt="BlackSpoken homepage" loading="lazy">
+          </div>
+          <div class="project__content">
+            <h3>BlackSpoken</h3>
+            <p class="project__description">
+              A passion project built with Python to celebrate and amplify Black voices in the podcasting world. Uses
+              the Spotify API to fetch podcast data, allowing users to explore curated content that celebrates diversity
+              and Black excellence.
+            </p>
+            <div class="project__meta">
+              <span class="project__meta-item"><strong>Type:</strong> Full-stack Web App</span>
+              <span class="project__meta-item"><strong>Build:</strong> Personal project (end-to-end)</span>
+
+              <span class="project__meta-item"><strong>Timeline:</strong> Aug - Nov 2024</span>
+            </div>
+            <ul class="techstack__list">
+              <li>Python</li>
+              <li>Flask</li>
+              <li>MySQL</li>
+              <li>Spotify API</li>
+              <li>HTML/CSS</li>
+            </ul>
+            <br>
+            <a href="https://websitesbywhitney.pythonanywhere.com/" target="_blank" class="btn">View Project</a>
+          </div>
+        </article>
+
+        <!-- Project : Artist Portfolio -->
+        <article class="project__card">
+          <div class="project__image">
+            <img src="public/www.bootcheemusic.com_ (1).png" alt="Bootchee Music homepage" loading="lazy">
+          </div>
+          <div class="project__content">
+            <h3>Artist Portfolio</h3>
+            <p class="project__description">
+              Custom-built portfolio website for Bootchee, a Haitian-Canadian singer-songwriter. Built completely from
+              scratch with clean, hand-written code—no CMS, no templates. Designed to be fast, responsive, and fully
+              tailored to her brand.
+            </p>
+            <div class="project__meta">
+              <span class="project__meta-item"><strong>Type:</strong> Client Website</span>
+              <span class="project__meta-item"><strong>Build:</strong> Developed for a client from provided design
+                requirements</span>
+        
+              <span class="project__meta-item"><strong>Client:</strong> Bootchee Music</span>
+            </div>
+            <ul class="techstack__list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <br>
+            <a href="https://bootcheemusic.com" target="_blank" class="btn">View Project</a>
+          </div>
+        </article>
+
+
+
+        <!-- Project : UniFi -->
+        <article class="project__card">
+          <div class="project__image">
+            <img src="public/seg-unifi.github.io.png" alt="UniFi homepage" loading="lazy">
+          </div>
+          <div class="project__content">
+            <h3>UniFi</h3>
+            <p class="project__description">
+              A group project showcasing a concept app designed for university communities. The website demonstrates how
+              the app could connect students with events matching their interests, making campus engagement easier and
+              more personalized.
+            </p>
+            <div class="project__meta">
+              <span class="project__meta-item"><strong>Type:</strong> Concept Demo</span>
+              <span class="project__meta-item"><strong>Build:</strong> Collaborative project</span>
+            </div>
+            <ul class="techstack__list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <br>
+            <a href="https://seg-unifi.github.io/" target="_blank" class="btn">View Project</a>
+          </div>
+        </article>
+
+        
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact container section" id="contact">
+      <h2 ><strong>Stay in touch!</strong></h2>
+      <p>
+        Whether it's a job, a project, or just a question you can't shake, send it my way. That's what the inbox is for.
+      </p>
+      <a href="mailto:whitneynsegbe@gmail.com" class="btn">Get in touch</a>    
+    </section>
+
+    <section class="container section footer">
+      <h4>|Whitney Nsegbe|</h4>
+    </section>
+  </main>
+
+  <script src="https://kit.fontawesome.com/f6b7ebe716.js" crossorigin="anonymous"></script>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

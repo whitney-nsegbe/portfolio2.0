@@ -1,0 +1,96 @@
+.featured {
+    background: linear-gradient(135deg, rgba(145, 120, 18, 0.05) 0%, transparent 100%);
+    border-radius: 12px;
+    padding: var(--spacing-lg);
+    margin-top: 3rem;
+}
+
+.featured__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-sm);
+}
+
+.featured__subtitle {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--col-gold);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.featured__title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: var(--spacing-sm);
+    background: radial-gradient(circle, #FFD700 50%, #8a6a1b 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.featured__link svg {
+    width: 2rem;
+    height: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.featured__link:hover svg {
+    transform: translate(5px, -5px);
+}
+
+.featured__description {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: var(--spacing-md);
+    max-width: 800px;
+}
+
+.featured__video {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 8px;
+    margin: var(--spacing-md) 0;
+    background: var(--col-medgrey);
+}
+
+.featured__details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-md);
+}
+
+.featured__details h3 {
+    color: var(--col-gold);
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.techstack__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.techstack__list li {
+    background: rgba(145, 120, 18, 0.15);
+    padding: 0.4em 0.8em;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    border: 1px solid rgba(145, 120, 18, 0.3);
+}
+
+@media (max-width: 768px) {
+    .featured {
+        padding: var(--spacing-md);
+    }
+
+    .featured__details {
+        grid-template-columns: 1fr;
+    }
+}
